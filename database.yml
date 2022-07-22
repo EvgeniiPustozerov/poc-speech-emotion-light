@@ -1,0 +1,19 @@
+Databases:
+  MyDatabase: samples/crema_d_diarization/{uri}.wav
+
+Protocols:
+  MyDatabase:
+    SpeakerDiarization:
+      MyProtocol:
+        train:
+          uri: info/configs/diarization/lists/dataset_diarization_train.lst
+          annotation: info/configs/diarization/rttms/dataset_diarization_train.rttm
+          annotated: info/configs/diarization/uems/dataset_diarization_train.uem
+        development:
+          uri: info/configs/diarization/lists/dataset_diarization_development.lst
+          annotation: info/configs/diarization/rttms/dataset_diarization_development.rttm
+          annotated: info/configs/diarization/uems/dataset_diarization_development.uem
+        test:
+          uri: info/configs/diarization/lists/dataset_diarization_test.lst
+          annotation: info/configs/diarization/rttms/dataset_diarization_test.rttm
+          annotated: info/configs/diarization/uems/dataset_diarization_test.uem

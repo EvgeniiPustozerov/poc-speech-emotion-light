@@ -1,0 +1,15 @@
+aiogram
+librosa
+matplotlib
+nemo
+numpy
+pandas
+pydub
+scipy
+wget
+xgboost
+sklearn
+scikit-learn
+torchaudio
+
+requests

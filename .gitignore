@@ -1,0 +1,9 @@
+/data/manifests/
+/data/audio/
+/images/
+/data/transcripts/
+/modules/diarization_model/lightning_logs/
+/lightning_logs/
+/data/models/diarization_checkpoints/
+/samples/video/
+/data/models/
