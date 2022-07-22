@@ -11,7 +11,7 @@ from modules.emotion_model.emotion_model import analyze_emotions
 from modules.feature_extractor.gen_feature_extraction import get_features
 from modules.visualization.spectrogram import make_spectrogram
 
-TELEGRAM_API_TOKEN = '5441138665:AAEOdQLYGUkL-so7e58Ee52RhgpYLjO01dQ'
+TELEGRAM_API_TOKEN = ''
 
 # Initialize bot and dispatcher
 print(sys.version)
